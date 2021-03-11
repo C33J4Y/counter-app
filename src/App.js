@@ -8,7 +8,7 @@ function App() {
       <h1>People Counter</h1>
       <button onClick={() => setCount(count + 1)}>Increase</button>
       <p>{count}</p>
-      <button onClick={() => setCount(count - 1)}>Decrease</button>
+      <button onClick={count > 0 ? () => setCount(count - 1) : () => setCount(0)}>Decrease</button>
     </div>
   );
 }
