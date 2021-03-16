@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <title>People Counter App</title>
   </React.StrictMode>,
   document.getElementById('root')
 );

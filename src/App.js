@@ -2,7 +2,7 @@ import {useState} from 'react';
 import './App.css';
 
 function MaxCapacity(){
-  return <h1>Store at Max Capacity</h1>;     
+  return <h1 style={{color: "red"}}>Store at Max Capacity</h1>;     
 }
 
 function App() {
@@ -31,3 +31,4 @@ function App() {
 }
 
 export default App;
+
