@@ -5,3 +5,16 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 64px;
+}
+
+p {
+  font-weight: bold;
+  color: #fff;
+  font-size: 72px;
+
+}
+
